@@ -1,0 +1,29 @@
+How will you remove last object from a list ? 
+
+
+1. Using the pop() Method:
+
+    The pop() method removes and returns the last element of the list. This method modifies the original list by removing the last element.
+
+    my_list = [10, 20, 30, 40, 50]
+    my_list.pop()  # Removes and returns the last element
+    print(my_list)
+    Output: [10, 20, 30, 40]
+
+2. Using List Slicing:
+    
+    You can slice the list to exclude the last element. This creates a new list without modifying the original one.
+
+    my_list = [10, 20, 30, 40, 50]
+    my_list = my_list[:-1]  # Excludes the last element
+    print(my_list)
+    Output: [10, 20, 30, 40]
+
+3. Using the del Keyword:
+    
+    The del keyword can be used to delete the last element by specifying the last index using -1.
+
+    my_list = [10, 20, 30, 40, 50]
+    del my_list[-1]  # Deletes the last element
+    print(my_list)
+    Output: [10, 20, 30, 40]

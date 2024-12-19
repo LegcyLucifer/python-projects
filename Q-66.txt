@@ -1,0 +1,19 @@
+(66). How can you pick a random item from a list or tuple? 
+
+    using of "random.choise()"function we can pick a random item from a list or tuple.
+
+    e.g : import random
+
+        l1 = ["rushik","Harsh","kiran","Vishal","Ghanashyam"] # list
+        t1 = ("rushik","Harsh","kiran","Vishal","Ghanashyam") # tuple
+
+        r1 = random.choice(l1) # choose random element of list
+        r2 = random.choice(t1) # choose random element of tuple
+
+        print(r1)
+        print(r2)
+
+        output :
+
+            Vishal
+            kiran

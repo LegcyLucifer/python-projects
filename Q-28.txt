@@ -1,0 +1,21 @@
+The append() and extend() methods in Python are both used to add elements to a list, but they work differently in how they add elements.
+
+1. append() Method:
+
+    Purpose: Adds a single element (any data type) to the end of the list.
+    Behavior: The entire element (which could be a list, number, or string) is added as a single item to the list.
+
+2. extend() Method:
+
+    Purpose: Adds all the elements of an iterable (like another list, tuple, or string) to the end of the list.
+    Behavior: It unpacks the elements of the iterable and adds them individually to the list.
+
+Key Differences:
+
+    Feature	                     append()	                                     extend()
+     Adds	          A single element as one item	              Elements of an iterable individually
+     Input	       Any data type (element, list, etc.)	      Only iterables (lists, tuples, strings, etc.)
+ Modifies list	       List length increases by 1	       List length increases by the number of items in the iterable
+
+append() adds one element to the list, while
+extend() adds multiple elements from an iterable by unpacking them.

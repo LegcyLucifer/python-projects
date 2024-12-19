@@ -1,0 +1,18 @@
+(65).How Many Basic Types of Functions Are Available in Python ?
+
+    there are two types of function are Available in python.
+    1) in-build function
+    2) user-define Functions
+
+    1) inbuild function : 
+        this function are define by python :
+            e.g : print(), input(), upper(), lower(), len(), min(), max(), etc.
+
+    2) user-define function :
+        this function are difine by user, which is difine by user requirment to perform specific task.
+
+        there are 4 catogaries in user-define function.
+        1) function without parameter and without return types
+        2) function without parameter and with return types
+        3) function with parameter and without return types
+        4) function with parameter and with return types

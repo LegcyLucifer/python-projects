@@ -1,0 +1,18 @@
+The continue statement in Python is used to skip the rest of the code inside a loop for the current iteration and move directly to the next iteration of the loop. It is typically used in loops (like for or while) when you want to bypass certain parts of the code based on a condition, without exiting the loop entirely.
+
+Example:
+
+    for i in range(5):
+        if i == 3:
+            continue  # Skip the iteration when i is 3
+        print(i)
+
+Output:
+
+0
+1
+2
+4
+
+
+In this example, when i equals 3, the continue statement is executed, and the rest of the code in the loop is skipped, so 3 is not printed. The loop then continues with the next iteration.

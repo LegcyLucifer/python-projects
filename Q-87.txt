@@ -1,0 +1,53 @@
+(87) When is the finally block executed ? 
+
+    1. If no exception occurs:
+
+        The finally block is executed after the try block finishes.
+
+    example :
+
+            try:
+                print("In try block")
+            finally:
+                print("In finally block")  
+
+    2. If an exception occurs:
+
+        The finally block is executed after the appropriate except block finishes handling the exception.
+
+        example :
+
+            try:
+                print("In try block")
+                x = 1 / 0  # Raises ZeroDivisionError
+            except ZeroDivisionError:
+                print("Exception handled")
+            finally:
+                print("In finally block")
+
+    3. If an exception is not handled:
+
+        The finally block is executed before the exception propagates to higher levels of the program.
+
+        example :
+
+            try:
+                print("In try block")
+                x = 1 / 0  # Raises ZeroDivisionError
+            finally:
+                print("In finally block")
+
+    4. If a return, break, or continue is encountered in the try or except block:
+
+        The finally block is executed before the control flow moves out of the enclosing function or loop.
+
+        example :
+
+            def example():
+                try:
+                    return "From try block"
+                finally:
+                    print("In finally block")
+
+            result = example()
+            print(result)

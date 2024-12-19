@@ -1,0 +1,17 @@
+(68) How can you get a random number in python ?
+
+    using of "random.randint()" function i can get a random number in python.
+
+        e.g. : 
+            l1 = random.randint(1,100)
+
+            print(l1)
+    ---------------------------------------------------------------------------------------
+
+    also i can use of "random.choice()" to  get a random number in python.
+    
+        e.g. : 
+            l1 = range(1.100)
+            r1 = random.choice(l1)
+
+            print(r1)

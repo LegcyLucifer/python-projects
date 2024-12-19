@@ -1,0 +1,16 @@
+Memory management in Python is handled automatically using a combination of:
+
+    1. **Reference Counting**: 
+            Each object in Python maintains a count of references pointing to it. When the reference count drops to zero, the memory is deallocated.
+    
+    2. **Garbage Collection**: 
+            Python has a built-in garbage collector that identifies and cleans up cyclic references (objects that refer to each other but are no longer in use), which reference counting alone can't handle.
+
+    3. **Memory Pools (PyMalloc)**: 
+            Python uses an internal memory manager that manages the allocation of memory for small objects, optimizing performance by reusing previously allocated memory blocks.
+
+This automated system ensures efficient memory usage without manual intervention by the programmer.
+
+45
+48
+49

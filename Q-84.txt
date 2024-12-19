@@ -1,0 +1,31 @@
+there are many except statements in python.
+
+there some except statements which is i know : 
+
+1. ArithmeticError
+
+    Base class for errors like division by zero or overflow.
+
+    example:
+        -- ZeroDivisionError
+        -- OverflowErro
+
+2. ValueError
+
+    Raised when a function gets an argument of the right type but an inappropriate value.
+
+3. TypeError
+
+    Raised when an operation is applied to an object of an inappropriate type.
+
+4. IndexError
+
+    Raised when accessing an index out of the range of a list or tuple.
+
+5. KeyError
+
+    Raised when a key is not found in a dictionary.
+
+6. NameError
+
+    Raised when a variable or function name is not defined.

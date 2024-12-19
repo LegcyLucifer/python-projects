@@ -1,0 +1,3 @@
+2) What is programing :
+	
+	programing is process of creating a set of instruction that computer can follow to perf orm specific task.  

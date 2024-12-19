@@ -1,0 +1,29 @@
+(71) What is File function in python? What are keywords to create 
+and write file. 
+
+1. Opening a File: Use open() to open a file in a specific mode.
+
+2. Writing to a File: Use write() or writelines() methods to add content to a file.
+
+3. Reading from a File: Use read(), readline(), or readlines() to fetch content.
+
+4. Closing a File: Always close the file after use with close() to free resources.
+
+5. File Context Manager: Use with to handle files automatically (no need to call close()).
+
+Keywords :
+
+1. w (write mode):
+
+--Creates a new file if it doesn't exist.
+--Overwrites the file if it already exists.
+
+2. a (append mode):
+
+--Creates a new file if it doesn't exist.
+--Adds content to the end of the file without overwriting.
+
+3. x (exclusive creation):
+
+--Creates a new file.
+--Raises an error if the file already exists.

@@ -1,0 +1,8 @@
+(88) What happens when „1‟== 1 is executed ?
+
+    When the expression "1" == 1 is executed in Python, it evaluates to False because the two operands are of different types (str and int)
+    and are not automatically converted for comparison.
+
+    example :
+
+        print("1" == 1)  # False

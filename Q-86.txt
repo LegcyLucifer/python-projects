@@ -1,0 +1,19 @@
+(86) Can one block of except statements handle multiple exception ?
+
+    Yes, a single except block can handle multiple exceptions in Python. You can do this in one of two ways:
+
+
+    1. Using a Tuple :
+
+        You can specify multiple exceptions in a single except block by enclosing them in a tuple.
+        The block will handle any of the exceptions listed in the tuple.
+
+        --If a ValueError or TypeError occurs, the except block will execute.
+
+        --The variable e will hold the exception object for further inspection or logging.
+
+    2. Catching Multiple Exceptions with a Generic Base Class :
+
+        Some exception classes are hierarchically related. For example, 
+        ArithmeticError is the base class for ZeroDivisionError, OverflowError, and others. 
+        You can use a base class to catch multiple related exceptions.

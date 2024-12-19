@@ -1,0 +1,35 @@
+(83) Explain Exception handling? What is an Error in Python ?
+
+exception : exception is a one kind of event which disturb the normal flow of the program.
+
+exception handling : to handle this kind of exception its called exception handling
+
+there is a best way to handle exception there is keyword like try and except
+
+Key Components:
+
+try block: Contains the code that might raise an exception.
+except block: Contains code to handle the exception if one occurs.
+else block (optional): Contains code to execute if no exception is raised.
+finally block (optional): Contains code that always executes, regardless of whether an exception was raised.
+
+Error : 
+
+Errors in Python are issues in the code that prevent the program from executing as expected.Errors 
+can be broadly classified into two categories:
+
+(1) Syntax Errors:
+
+These occur when Python cannot understand the code due to incorrect syntax.
+Detected at compile time (before execution).
+
+(2) Exceptions:
+
+These occur during runtime and indicate that something went wrong while the code was running.
+
+Examples of exceptions include:
+
+ZeroDivisionError: Division by zero.
+ValueError: Invalid input type.
+FileNotFoundError: File not found.
+IndexError: Accessing an out-of-range index in a list.

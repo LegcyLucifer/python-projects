@@ -1,0 +1,21 @@
+(85) When will the else part of try-except-else be executed ?
+
+what is else part ?
+
+    1. If the try block runs successfully without raising an exception, the else block will execute.
+
+    2. If an exception occurs in the try block, the else block is skipped, and the appropriate except block (if available) is executed.
+
+Why we Use the else part ?
+
+    The else block is typically used for code that should run only when the try block succeeds,
+    keeping it separate from the code that handles exceptions.
+
+Syntax :
+
+    try:
+        result = 10 / 2
+    except ZeroDivisionError:
+        print("Division by zero is not allowed.")
+    else:
+        print(f"Division successful, result is {result}.")
